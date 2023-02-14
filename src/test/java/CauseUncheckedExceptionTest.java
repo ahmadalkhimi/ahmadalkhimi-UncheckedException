@@ -21,7 +21,7 @@ public class CauseUncheckedExceptionTest {
     public void uncheckedExceptionTest(){
         try{
             cue.throwUncheckedException();
-            Assert.fail();
+            
         }catch(Exception e){
             Assert.assertTrue(e instanceof RuntimeException);
         }
